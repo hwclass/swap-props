@@ -22,8 +22,9 @@
   "keywords": [
     "js",
     "library",
-    "object",
-    "properties"
+    "objects",
+    "properties",
+    "swap"
   ],
   "author": "Baris Guler <harderworking.class@gmail.com> (https://www.github.com/hwclass)",
   "license": "MIT",
