@@ -1,6 +1,6 @@
 {
   "name": "swap-props",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "A simple library for swapping property values to each other within an object",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "testw": "npm run test -- --watchAll",
     "lint": "eslint .",
     "prepublish": "npm test && npm run build",
-    "semantic-release": "semantic-release"
+    "commit": "git-cz ",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,8 @@
     "babel-core": "6.26.0",
     "babel-preset-env": "1.6.1",
     "babelrc-rollup": "3.0.0",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
     "eslint": "4.14.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-config-airbnb-base": "12.1.0",
@@ -46,5 +49,8 @@
     "rollup-plugin-babel": "3.0.3",
     "rollup-watch": "4.3.1",
     "semantic-release": "^11.0.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
