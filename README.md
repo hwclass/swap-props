@@ -1,7 +1,7 @@
 ### swap-props
 A simple library for swapping property values to each other within an object
 
-####Usage
+#### Usage
 Assume that we have a simple object (literal) in JS:
 ```js
 let obj = {
@@ -21,5 +21,5 @@ obj = swapProps(obj, [a], [b])
 // }
 ```
 
-####Licence
+#### Licence
 MIT
