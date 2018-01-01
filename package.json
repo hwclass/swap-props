@@ -1,6 +1,6 @@
 {
   "name": "swap-props",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "A simple library for swapping property values to each other within an object",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,12 @@
     "test": "jest",
     "testw": "npm run test -- --watchAll",
     "lint": "eslint .",
-    "prepublish": "npm test && npm run build"
+    "prepublish": "npm test && npm run build",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hwclass/swap-props.git"
+    "url": "https://github.com/hwclass/swap-props.git"
   },
   "keywords": [
     "js",
@@ -43,6 +44,7 @@
     "rimraf": "2.6.2",
     "rollup": "0.53.2",
     "rollup-plugin-babel": "3.0.3",
-    "rollup-watch": "4.3.1"
+    "rollup-watch": "4.3.1",
+    "semantic-release": "^11.0.2"
   }
 }
